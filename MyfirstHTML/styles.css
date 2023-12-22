@@ -1,0 +1,163 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/*img{
+    margin: 2rem 0rem 2rem -10rem;
+    border-radius: 0px;
+    width: 7rem;
+    height: 6rem;
+    text-align: center;
+  }*/
+  .logo{
+    margin: 1.5rem 0rem 1.5rem 0rem;
+    border-radius: 0px;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    color: rgb(234, 131, 4);
+  }
+  .logo_menu{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(241, 245, 246);
+  }
+  ul, a{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+    color: rgb(38, 36, 55);
+    font-family: 'Alegreya Sans', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+  }
+  li{
+    padding: 4px 8px;
+    border-radius: 2px;
+  }
+  .home:hover{
+    background-color: rgb(229, 231, 235);
+    cursor: pointer;
+  }
+  .myart:hover{
+    background-color: rgb(233, 237, 242);
+    cursor: pointer;
+    text-decoration: none;
+  } 
+  .about:hover{
+    background-color: rgb(233, 237, 242);
+    cursor: pointer;
+  }
+  .contact:hover{
+    background-color: rgb(233, 237, 242);
+    cursor: pointer;
+  }
+  .bg{
+    width: 80rem;
+    height: 80vh;
+    background-image: url("https://static-cse.canva.com/blob/1144483/removingbackgroundimages_Unsplash.jpeg");
+    /*background-image: url("../MyfirstHTML/Images/pexels-philippe-bonnaire-6329686.jpg");*/
+    background-size: cover;
+  }
+
+  #my_art{
+    margin-top: 2rem;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+    color:rgb(234, 131, 4);
+  }
+  .grid_images{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: minmax(300px, auto);
+    /*grid-template-columns: repeat(3,1fr);*/
+    grid-template-rows: repeat(3 minmax(250px auto));
+    grid-gap: 25px;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  #image_1{
+  max-width: 256px;
+  /*height: 350px;*/
+  /*border: 2px solid rgb(243, 188, 230);*/
+  border-radius: 20px;
+  margin: 0px;
+  
+  }
+  #image_2{
+  width: 256px;
+  /*height: 300px;*/
+  /*border: 2px solid rgb(243, 188, 230);*/
+  border-radius: 20px;
+  margin: 0px;
+  }
+  #image_3{
+  width: 256px;
+  /*height: 300px;*/
+  border-radius: 20px;
+  margin: 0px;
+  }
+  #image_4{
+  width: 256px;
+  /*height: 400px;*/
+  border-radius: 20px;
+  margin: 0px;
+  }
+  #image_5{
+  width: 256px;
+  /*height: 400px;*/
+  /*border: 2px solid rgb(243, 188, 230);*/
+  border-radius: 20px;
+  margin: 0px;
+  }
+  #image_6{
+  width: 256px;
+  /*height: 400px;*/
+  border-radius: 20px;
+  margin: 0px;
+  }
+  #image_7{
+  width: 256px;
+  /*height: 400px;*/
+  border-radius: 20px;
+  margin: 0px;
+  }
+  #image_8{
+  width: 256px;
+  /*height: 400px;*/
+  border-radius: 20px;
+  margin: 0px;
+  }
+  #image_9{
+  width: 256px;
+  /*height: 400px;*/
+  border-radius: 20px;
+  margin: 0px;
+  }
+  #about1{
+    margin-top: 4rem;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+    color:rgb(234, 131, 4);
+  }
+  p{
+    margin: 2rem 10rem;
+    color: rgb(38, 36, 55);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+  }
+  #contact1{
+    margin-top: 4rem;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+    color:rgb(234, 131, 4);
+  }
+  .contact_details{
+    margin-top: 4rem;
+    
+  }
